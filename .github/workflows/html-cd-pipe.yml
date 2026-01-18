@@ -28,4 +28,4 @@ jobs:
             --exclude='.git' \
             --exclude='.github' \
             ./ \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/my_cv
